@@ -13,4 +13,10 @@ public class HomeController {
         return "hello";
     }
 
+    @RequestMapping("/getuser")
+    String GetUser(Model model)
+    {
+        return "hello";
+    }
+
 }
