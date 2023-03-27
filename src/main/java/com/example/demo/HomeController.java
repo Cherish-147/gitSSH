@@ -19,4 +19,15 @@ public class HomeController {
         return "redirect:/books";
     }
 
+    @RequestMapping("/welcome")
+    String Welcome()
+    {
+        return "welcome";
+    }
+
+    @RequestMapping("/about")
+    String About()
+    {
+        return "about";
+    }
 }
