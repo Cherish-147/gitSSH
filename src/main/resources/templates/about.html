@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout" layout:decorator="layout">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-  I am a student!
+<div layout:fragment="content">
+    I am a student!
+</div>
 </body>
 </html>
